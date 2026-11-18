@@ -1,0 +1,6 @@
+{
+  "name": "Cutout Pro",
+  "description": "Offline Hinglish photo cutout, background remover, and object remover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

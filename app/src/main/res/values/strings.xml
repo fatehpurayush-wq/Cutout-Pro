@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cutout Pro</string>
+    <string name="share_to_cutout_pro">Cutout Pro mein kholo</string>
+    <string name="privacy_statement">Aapki photos phone se bahar nahi jaati.</string>
+    <string name="choose_photo">Photo chuno</string>
+    <string name="take_photo">Camera se lo</string>
+    <string name="how_it_works">Kaise kaam karta hai</string>
+    <string name="mode_bg_remove">Background hatao</string>
+    <string name="mode_subject_remove">Subject hatao</string>
+    <string name="mode_both">Dono</string>
+    <string name="download">Download</string>
+    <string name="my_downloads">Meri downloads</string>
+    <string name="projects">Projects</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+</resources>

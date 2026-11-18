@@ -1,0 +1,38 @@
+Cutout Pro — Bundled On-Device AI Models & Licenses
+=====================================================
+
+Cutout Pro runs 100% offline on the device. Every AI model is bundled inside
+the APK under app/src/main/assets/models/ and executed via LiteRT (Apache 2.0).
+No network calls, cloud APIs, or telemetry are used.
+
+1. MediaPipe Selfie Segmenter (float16)
+   - File: app/src/main/assets/models/selfie_segmenter.tflite
+   - Purpose: Fast person & portrait foreground segmentation (Mode 1, 2, 3 & Video Beta)
+   - Source: Google MediaPipe Models
+   - License: Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+2. MediaPipe DeepLab-v3 (PASCAL VOC 21-class, float32)
+   - File: app/src/main/assets/models/deeplab_v3.tflite
+   - Purpose: General object, pet, vehicle, bottle, and furniture segmentation
+   - Source: Google MediaPipe Models / TensorFlow DeepLab-v3
+   - License: Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+3. MediaPipe Selfie Multiclass Segmenter (256x256, float32)
+   - File: app/src/main/assets/models/selfie_multiclass_256x256.tflite
+   - Purpose: Multi-class person segmentation (hair, skin, clothes, accessories)
+   - Source: Google MediaPipe Models
+   - License: Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+4. MediaPipe Hair Segmenter (512x512, float32)
+   - File: app/src/main/assets/models/hair_segmenter.tflite
+   - Purpose: High-resolution hair strand matting ("Baal / hair detail" mode)
+   - Source: Google MediaPipe Models
+   - License: Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+5. Algorithmic On-Device Engines (Built-in, Apache 2.0 / Custom Open Implementation)
+   - Salient Object Contrast & Border-GMM Refiner: General product/food/object cutout
+   - Multi-Scale PatchMatch & Harmonic Diffusion Inpainter: Object removal & texture fill ("Subject hatao")
+   - LiteRT Runtime (com.google.ai.edge.litert:litert:2.3.0 & litert-gpu:2.3.0): Apache License 2.0
+
+Bundled Fonts (Google Fonts, SIL Open Font License 1.1):
+   - Plus Jakarta Sans, Space Grotesk, Poppins, Noto Sans Devanagari, Kalam
